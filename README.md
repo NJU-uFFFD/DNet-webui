@@ -1,26 +1,46 @@
-# DNet-webui
-WebUI for DNet-core.
+# Getting Started with Create React App
 
-~~开始为前端画饼~~
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-后端可能需要的 API 和前端功能相对应。
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-可能实现的功能:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- 协议栈显示：显示协议栈的不同层次和组成部分，并提供相应的解释和注释。
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- 数据包捕获：数据包捕获模块，可以捕获传入的和传出的数据包，并提供数据包的详细信息和分析。
+### `npm test`
 
-- 数据包解析：在协议栈的每个层次上，添加一个数据包解析模块，展现数据包在每个层次上的格式和结构。该模块可以提供详细的数据包解析信息和注释。
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- 数据包注入：数据包注入模块，可以让学生手动注入数据包，并查看协议栈的响应和输出。
+### `npm run build`
 
-- 诊断工具：常见的一些网络诊断工具。例如，Ping / Traceroute，用于查找网络故障所在的节点。
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- 数据包生成器：你可以添加一个数据包生成器模块，以帮助学生构建和发送自定义的数据包。该模块可以让学生手动构建数据包，并查看协议栈的响应和输出。
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- 故障模拟：故障模拟模块，用于测试协议栈的可靠性和容错性。该模块可以模拟故障场景，例如网络拥塞、丢包、重复和延迟，以检测协议栈的响应能力。
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- 带宽限制：带宽限制模块，以帮助学生了解网络的带宽限制如何影响数据传输。
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
